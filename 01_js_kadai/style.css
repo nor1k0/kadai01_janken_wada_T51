@@ -1,0 +1,150 @@
+@charset "utf8";
+@font-face {
+    font-family:"SoWhat"; 
+    src:url(./SoWhat-Regular.woff) format("woff");}
+
+/*画面全体の設定*/
+body,
+html {
+  height: 100%;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  font-family: "SoWhat";
+}
+ 
+/*固定する背景*/
+
+.parallax-bg {
+  padding: 5%;
+  background-image: url('./img/01-whitepaper.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ 
+.title{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 0px;
+}
+
+.main{
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+
+.recommend{
+    text-align: center;
+    font-size: 30px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    font-family: "SoWhat";
+    font-size: 20px;
+    width: 30%;
+}
+
+.recommend_btn{
+    height: 40px;
+}
+
+.recommend_frame{
+    width: 33%;
+}
+
+.recommend_frame_img{
+    width: 300%;
+    position: relative;
+}
+
+.recommend_heart_img{
+    width: 9%;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 2.8%;
+}
+
+
+.favorite{
+    text-align: center;
+    font-size: 30px;
+    width: 66%;
+}
+
+.lr{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+}
+
+.favorite_frame{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.favorite_left_heart_img{
+    width: 9%;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 2.8%;
+}
+
+
+.favorite_right_heart_img{
+    width: 9%;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 2.8%;
+}
+
+.left{
+    width: 100%;
+}
+
+.nail_img_list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.nail_img{
+    width: 25%;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.janken{
+    text-align: center;
+}
+
+main{
+    text-align: center;
+}
+
+#cho_btn{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#par_btn{
+    margin-right: 35px;
+}
+
+.pc{
+    font-size: 25px;
+}
+
+.result{
+    font-size: 25px;
+}
+
+#judgment{
+    font-size: 20px;
+}
